@@ -1,0 +1,5 @@
+Q1: A nice way to see the counts of admit/non-admit, for each prestige bucket is to try this:  pd.crosstab(df['admit'], df['prestige'], rownames=['admit'])
+Q3.4: A more precise answer would be: For students who attended a top ranked college, the odds of being admitted into graduate school are 3.07 times the odds of students who did not attend a top tier school.
+Q3.7: A more precise answer would be: For students who attended a 4th tier school the odds of being admitted into gradauate school are 0.41 times the odds of students who did not attend a 4th teir school.
+For parts 4 and 5, this exercise wanted you to use the Statsmodel package, specifically the "Logit" model.
+This blog would be very useful in understanding how to use that model and how to calculate the log odds out of the models coefficients: http://blog.yhat.com/posts/logistic-regression-and-python.html
