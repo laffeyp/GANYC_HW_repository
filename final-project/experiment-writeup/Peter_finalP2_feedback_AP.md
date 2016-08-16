@@ -1,0 +1,6 @@
+I think given your data is so limited in the number of features, it will be a good idea to add more features. You mentioned trying to look at the price data differentlyl by calculating % changes, up/down/unchanged category, perhaps even add moving averages like traditional stocks (10,50,200 days). You don't need to select one or the other, why not just incorporate them into one larger data set? Of course, you might have to drop some of the earlier price data (in order to ensure every day of price data you use has a #day moving average), but you probably won't lose too much.
+
+Another thing to consider might be seasonality in your time series data.
+Some links to help you get a sense for timeseries decomposition:
+[decomposition with statsmodel](http://www.cbcity.de/timeseries-decomposition-in-python-with-statsmodels-and-pandas) - This includes a brief IP notebook to help you implement code.
+[blog on time series forecasting](https://www.analyticsvidhya.com/blog/2016/02/time-series-forecasting-codes-python/) - Quite a bit of material in this one. But I've read other topics on this blog and tends to be very good.
